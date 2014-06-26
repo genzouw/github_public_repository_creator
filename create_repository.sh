@@ -28,4 +28,5 @@ fi
 curl \
 	-u "$login_name:$api_token" https://api.github.com/user/repos \
 	-d '{"name":"'$repo_name'"}' \
+	| php -r '$json = (array) json_decode(file_get_contents("php://stdin")); echo $json["ssh_url"] . "\n";' \
 ;
