@@ -1,5 +1,4 @@
 #!/bin/bash -u
-set -e
 
 if [ -f $HOME/.gprc_cache ]; then
 	login_name=$(cat $HOME/.gprc_cache | cut -d ':' -f 1)
