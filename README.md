@@ -11,11 +11,12 @@ Setup
 
 Execute This Command.
 
-```bash:
-cd
-git clone https://github.com/genzouw/github_public_repository_creator.git
+```bash
+$ cd
 
-export PATH=~/github_public_repository_creator:$PATH
+$ git clone https://github.com/genzouw/github_public_repository_creator.git
+
+$ export PATH="$HOME/github_public_repository_creator:$PATH"
 ```
 
 Ready
@@ -34,20 +35,20 @@ Usage
 
 Execute This Command.
 
-```bash:
-create_repository.sh
+```bash
+$ create_repository.sh
 ```
 
 if You determine the repository name, you input repository name.
 
-```bash:
-create_repository.sh foo_project
+```bash
+$ create_repository.sh foo_project
 ```
 
 
 Relase Note
 ====================
 
-|date      |version|note          |
-|---       |---    |---           |
-|2014/06/07|0.1    |first release.|
+| date       | version | note           |
+|------------|---------|----------------|
+| 2014/06/07 | 0.1     | first release. |
